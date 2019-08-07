@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("Background_Home.jpg");
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding-right: 0;
+}
+.menubar {
+    height: 50px;
+    width: 100px;
+    
+}
+.menubar .logo {
+    float: left;
+    
+}
+.menubar h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 30px; 
+}
+
+.menubar p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 40px;
+}
+
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
